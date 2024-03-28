@@ -1,0 +1,4 @@
+*.log
+temp/
+config/development.config
+Activity Exemplar_ Course 2 Python Notebook.ipynb
