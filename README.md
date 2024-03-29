@@ -4,4 +4,4 @@ To develop a regression model that helps estimate taxi fares before the ride bas
 The data set is provided by NYC TLC, [2017_Yellow_Taxi_Trip_Data.csv](2017_Yellow_Taxi_Trip_Data.csv).<br>
 For more information on the dataset view the dataset dictionary file -> [Dataset_Dictionary.pdf](Dataset_Dictionary.pdf).
 
-Initial assesment and conclusions are provided in the [InitialAssesment.ipynb](InitialAssesment.ipynb)  jupyter notebook.
+Initial assesment and conclusions are provided in the [InitialAssesment.ipynb](InitialAssesment.ipynb)  jupyter notebook. In this part of the project, I performed preliminary inspection of the data provided by the NY TLC in order to provide key data variables and anomalies to ensure the data provided is suitable for generating clear and actionable insights.
