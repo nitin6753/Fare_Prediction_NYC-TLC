@@ -8,7 +8,10 @@ Initial assesment and conclusions are provided in the [InitialAssesment.ipynb](I
 
 Preliminary Data analysis is performmed in [PreliminaryDataAnalysis.ipynb](PreliminaryDataAnalysis.ipynb) file After looking at the dataset, the two variables that are most likely to help build a predictive model for taxi ride fares are total_amount and trip_distance because those variables show a picture of a taxi cab ride.<br>
 
-Exploratory data analysis is performed in [ExploratoryDataAnalysis.ipynb](ExploratoryDataAnalysis.ipynb) file. EDA helps to get to know the data, understand its outliers, clean its missing values, and prepare it for future modeling. I have learned that most rides are below 6 miles and the maximum trip distance is of 35 miles. Also, most rides costs belo $20, but the maximum value is of $1200. My other questions are why few trips shows 0 trip distance and still charge non zero fare. I would likely want to know about the trip durations also. Do they affect the fare prices. when the trip durations are highest chronologically.<br>
+Exploratory data analysis is performed in [ExploratoryDataAnalysis.ipynb](ExploratoryDataAnalysis.ipynb) file.
+>   * EDA helps to get to know the data, understand its outliers, clean its missing values, and prepare it for future modeling. 
+>   * It was observed that most rides are below 6 miles and the maximum trip distance is of 35 miles. Also, most rides costs belo $20, but the maximum value is of $1200. 
+`Questions Raised`: Why few trips shows 0 trip distance and still charge non zero fare. I would likely want to know about the trip durations also. Do they affect the fare prices. when the trip durations are highest chronologically.<br>
 
 Descriptive statistics and hypothesis testing is performed in [StatisticalReview.ipynb](StatisticalReview.ipynb) file. 
 >   * The goal for this A/B test is to sample data and analyze whether there is a relationship between payment type and fare amount. Discover if customers who use credit cards pay higher fare amounts than customers who use cash. The hypothesis that customer with credit card paid higher fare amount compared to cash is statistically significant and did not occured due to chance. So, enouraging customers to pay with credit card could improve revenue for taxi cab drivers. 
