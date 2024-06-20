@@ -12,7 +12,7 @@ Exploratory data analysis is performed in [ExploratoryDataAnalysis.ipynb](Explor
 >   * EDA helps to get to know the data, understand its outliers, clean its missing values, and prepare it for future modeling. 
 >   * It was observed that most rides are below 6 miles and the maximum trip distance is of 35 miles. Also, most rides costs belo $20, but the maximum value is of $1200. 
 
-`Questions Raised`: Why few trips shows 0 trip distance and still charge non zero fare. I would likely want to know about the trip durations also. Do they affect the fare prices. when the trip durations are highest chronologically.<br>
+>  `Questions Raised`: Why few trips shows 0 trip distance and still charge non zero fare. I would likely want to know about the trip durations also. Do they affect the fare prices. when the trip durations are highest chronologically.<br>
 
 Descriptive statistics and hypothesis testing is performed in [StatisticalReview.ipynb](StatisticalReview.ipynb) file. 
 >   * The goal for this A/B test is to sample data and analyze whether there is a relationship between payment type and fare amount. Discover if customers who use credit cards pay higher fare amounts than customers who use cash. The hypothesis that customer with credit card paid higher fare amount compared to cash is statistically significant and did not occured due to chance. So, enouraging customers to pay with credit card could improve revenue for taxi cab drivers. 
@@ -20,7 +20,7 @@ Descriptive statistics and hypothesis testing is performed in [StatisticalReview
 
 Multiple linear regression is performed in [RegressionAnalysis.ipynb](RegressionAnalysis.ipynb) file.
 >   * To build model, EDA is performed & then Model Assumptions are cheked.
->   * Feature Engineering is performed by grouping dropoff and pickup locations to calculate `Mean Distance`, `Mean Duration` and `Mean Fare amount`. `Rush hours` are also identified using pickup timings. Training and test datasets were also created.
+>   * `Feature Engineering` is performed by grouping dropoff and pickup locations to calculate `Mean Distance`, `Mean Duration` and `Mean Fare amount`. `Rush hours` are also identified using pickup timings. Training and test datasets were also created.
 >   * These variables were used to train the Multiple Regression Model and predict the Fare Amount.
 >   * For every 1 mile travelled, 1 minute duration, and Rush hour the fare amount increases by `$1.862727`, `$0.33941`, `$0.272958`, respectively.
 >   * Below are the model metrics:
@@ -29,6 +29,6 @@ Multiple linear regression is performed in [RegressionAnalysis.ipynb](Regression
 >       * MSE: 10.1248318524279
 >       * RMSE: 3.181954093387882
 
->   This model explains about 86% variance in the fare amount.
+>  This model explains about 86% variance in the fare amount.
 
 The folder [Figures](Figures) contains all the plots generated during EDA performed using Tableau public. The link for the tableau public page -> [NYC-TLC Tableau Public](https://public.tableau.com/views/NYCTLC_17146140834130/TipAmountDistribution?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
