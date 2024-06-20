@@ -28,7 +28,6 @@ Multiple linear regression is performed in [RegressionAnalysis.ipynb](Regression
 >       * MAE: 1.9206528389740898
 >       * MSE: 10.1248318524279
 >       * RMSE: 3.181954093387882
+>       This model explains about `86% variance` in the `fare amount`.
 
->   This model explains about `86% variance` in the `fare amount`.
->
 The folder [Figures](Figures) contains all the plots generated during EDA performed using Tableau public. The link for the tableau public page -> [NYC-TLC Tableau Public](https://public.tableau.com/views/NYCTLC_17146140834130/TipAmountDistribution?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
