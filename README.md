@@ -20,7 +20,7 @@ Descriptive statistics and hypothesis testing is performed in [StatisticalReview
 
 Multiple linear regression is performed in [RegressionAnalysis.ipynb](RegressionAnalysis.ipynb) file.
 >   * To build model, EDA is performed & then Model Assumptions are cheked.
->   * Feature Engineering is performed by grouping dropoff and pickup locations to calculate `Mean Distance`, `Mean Duration` and `Mean Fare amount`. `Rush hours` are also identified using pickup timings. Training and test datasets were also created.
+>   * `Feature Engineering` is performed by grouping dropoff and pickup locations to calculate `Mean Distance`, `Mean Duration` and `Mean Fare amount`. `Rush hours` are also identified using pickup timings. Training and test datasets were also created.
 >   * These variables were used to train the Multiple Regression Model and predict the Fare Amount.
 >   * For every 1 mile travelled, 1 minute duration, and Rush hour the fare amount increases by `$1.862727`, `$0.33941`, `$0.272958`, respectively.
 >   * Below are the model metrics:
