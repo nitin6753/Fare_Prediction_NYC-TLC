@@ -30,6 +30,7 @@ Descriptive statistics and hypothesis testing is performed in [StatisticalReview
 >   * This model explains about `86 % variance` in the `fare amount`.
 
 Developed a `Random Forest` and `Gradient Boosting` model to identify if a customer would tip more than 20% of the fare price or not in [ClassificationAnalysis.ipynb](ClassificationAnalysis.ipynb) file. The folder [Pickle](Pickle) contains saved machine learning models.
+>   * Created and categorized a target variable that paid more than 20% of predicted fare price as tip 
 >   * Feature Engineered on dataset:
 >       * Broke the pickup-time into 4 time slots.
 >       * Used Predicted fare prices, mean duration, and mean distance.
