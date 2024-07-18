@@ -17,7 +17,7 @@ Descriptive statistics and hypothesis testing is performed in [StatisticalReview
 >   * The goal for this A/B test is to sample data and analyze whether there is a relationship between payment type and fare amount. Discover if customers who use credit cards pay higher fare amounts than customers who use cash. The hypothesis that customer with credit card paid higher fare amount compared to cash is statistically significant and did not occured due to chance. So, enouraging customers to pay with credit card could improve revenue for taxi cab drivers. 
 >   * Most importnatly, customers riding for larger trip distance might pay with credit card instead of cash as they might not carry lots of cash. So, there is a likelihood that fare amount also determines the payment method, rather than vice-versa.<br>
 
-Multiple linear regression is performed in [RegressionAnalysis.ipynb](RegressionAnalysis.ipynb) file.
+`Multiple linear regression` is performed in [RegressionAnalysis.ipynb](RegressionAnalysis.ipynb) file.
 >   * To build model, EDA is performed & then Model Assumptions are cheked.
 >   * `Feature Engineering` is performed by grouping dropoff and pickup locations to calculate `Mean Distance`, `Mean Duration` and `Mean Fare amount`. `Rush hours` are also identified using pickup timings. Training and test datasets were also created.
 >   * These variables were used to train the Multiple Regression Model and predict the Fare Amount.
@@ -28,5 +28,17 @@ Multiple linear regression is performed in [RegressionAnalysis.ipynb](Regression
 >       * MSE: 10.1248318524279
 >       * RMSE: 3.181954093387882
 >   * This model explains about `86 % variance` in the `fare amount`.
+
+Developed a `Random Forest` and `Gradient Boosting` model to identify if a customer would tip more than 20% of the fare price or not in [ClassificationAnalysis.ipynb](ClassificationAnalysis.ipynb) file. The folder [Pickle](Pickle) contains saved machine learning models.
+>   * Feature Engineered on dataset:
+>       * Broke the pickup-time into 4 time slots.
+>       * Used Predicted fare prices, mean duration, and mean distance.
+>   * Performed `hyperparameter tuning` and `cross validation` for both models using `GridSearchCV`.
+>   * Gradient Boosting model was considered the champion model that performed well on test datasets with evaluation metrics
+>       * F1: 74.76%
+>       * Recall: 80.71%
+>       * Precision: 69.62%
+>       * Accuracy: 71.31%
+>   * According to this model Vendor, predicted fare, mean distance, and mean duration are the most important features.
 
 The folder [Figures](Figures) contains all the plots generated during EDA performed using Tableau public. The link for the tableau public page -> [NYC-TLC Tableau Public](https://public.tableau.com/views/NYCTLC_17146140834130/TipAmountDistribution?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
